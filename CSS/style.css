@@ -13,12 +13,14 @@ footer {
   display: flex;
   justify-content: center;
   position: relative;
+  height: 20vh;
   h6 {
     font-family: "Montserrat", serif;
-    top: 830px;
+    
+    bottom: 0;
     color: white;
     letter-spacing: 3px;
-    position: absolute;
+    position: fixed;
     span {
       color: brown;
     }
